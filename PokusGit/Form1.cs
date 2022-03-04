@@ -40,5 +40,13 @@ namespace PokusGit
             int soucin = x * y;
             MessageBox.Show("Soucin cisel je " + soucin.ToString());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox1.Text);
+            int y = int.Parse(textBox2.Text);
+            int podil = x / y;
+            MessageBox.Show("Podil cisel je " + podil.ToString());
+        }
     }
 }
