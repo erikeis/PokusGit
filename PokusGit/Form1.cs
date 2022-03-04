@@ -53,5 +53,17 @@ namespace PokusGit
         {
             MessageBox.Show("ITA2 Erik Eis");
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox3.Text);
+            int faktorial = 1;
+            while (a > 0)
+            {
+                faktorial *= a;
+                a--;
+            }
+            MessageBox.Show(faktorial.ToString());
+        }
     }
 }
