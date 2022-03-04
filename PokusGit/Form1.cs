@@ -16,5 +16,13 @@ namespace PokusGit
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox1.Text);
+            int y = int.Parse(textBox2.Text);
+            int soucet = x + y;
+            MessageBox.Show("Soucet cisel je " + soucet.ToString());
+        }
     }
 }
