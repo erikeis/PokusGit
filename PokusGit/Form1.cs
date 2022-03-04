@@ -48,5 +48,10 @@ namespace PokusGit
             int podil = x / y;
             MessageBox.Show("Podil cisel je " + podil.ToString());
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ITA2 Erik Eis");
+        }
     }
 }
